@@ -22,6 +22,9 @@
     const video = document.createElement('video')
     video.src = '/imgs/eva.mp4'
     video.loop = true
+    video.playsinline = true
+    video.autoplay = true
+    video.muted = true
     video.load()
     video.play()
 
